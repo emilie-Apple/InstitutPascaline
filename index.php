@@ -7,6 +7,7 @@
     <meta name="description" content="Institut Pascaline">
     <meta name="keywords" content="esthéticienne, soins, visages, manucure, guinot, épilations, esthétique, institut, institut de beauté, corps, bien-être, masque, soins-yeux, beauté, détente, forme, gommage, modelage, maquillage, soins solaires, éclat, teint, beauté, institut de beauté, guinot france, guinot Paris, huiles, crème, lait, lotion, crème Guinot, anti-âge, anti-rides, soins en institut, cabine, cosmétique, esthéticienne à domicile">
     <meta name="title" content="Institut Pascaline, Chatou">
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
   </head>
@@ -14,19 +15,7 @@
   <body>
 
     <header>
-      <div class= "page1">
-<nav id='cssmenu'>
-<div class="logo"><a href="index.html">Institut Pascaline </a></div>
-<div id="head-mobile"></div>
-<div class="button"></div>
-<ul>
-
-<li><a href='#'>A PROPOS DE</a></li>
-<li><a href='#'>NOUVEAUTES & PROMO</a></li>
-<li><a href='#'>SOINS</a></li>
-<li><a href='http://www.guinot.com/'>PRODUITS</a></li>
-</ul>
-</nav>
+      <?php include('menu.php'); ?>
 </header>
 
 <section>
@@ -39,7 +28,7 @@
   <p>Notre institut de beauté vous accueille du lundi au samedi <br /><em>(uniquement sur rendez-vous)</em></p>
                       </div>
                     </div>
- <div class="phone pull-right"><img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone">01 42 93 02 65
+ <div class="phone pull-right"><img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone">01 30 53 24 50
   </div>
  
 </section>
@@ -69,9 +58,8 @@
   </li>
 </ul><br />
       </div>
-<footer>Copyright © 2016 <strong>Institut Pascaline.</strong> Conçu par Emilie Chartier</footer>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
+ <?php include('footer.php'); ?>
+    
     <script src="js/index.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.5/js/lightslider.min.js'></script>

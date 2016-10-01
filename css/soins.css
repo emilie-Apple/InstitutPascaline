@@ -1,0 +1,74 @@
+body{
+  background-image: url(soins.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  ffont-family: 'Raleway', sans-serif;
+
+}
+
+.table-responsive ul {
+  position: relative;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  background-color: #ecf0f1;
+  font-size: 12px;
+  margin: 20px;
+}
+.table-responsive ul:nth-child(even) {
+  background-color: #DBD9D9!important;
+}
+.table-responsive li {
+  position: relative;
+  margin: 0;
+  padding: 1px 0 1px 100px;
+  text-align: left;
+}
+.table-responsive li:after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.table-responsive li span {
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+.table-responsive .table-entete {
+  display: none;
+  background-color: transparent;
+}
+@media (min-width: 600px) {
+  .table-responsive {
+    display: table;
+    width: 100%;
+    table-layout: auto;
+    margin: 20px;
+  }
+  .table-responsive .table-corps {
+    display: table-row-group;
+  }
+  .table-responsive ul,
+  .table-responsive .table-entete {
+    display: table-row;
+  }
+  .table-responsive ul.table-entete,
+  .table-responsive .table-entete.table-entete {
+    font-weight: bold;
+  }
+  .table-responsive ul.table-entete li,
+  .table-responsive .table-entete.table-entete li {
+    padding-bottom: 1em;
+    color: #AD1325;
+  }
+  .table-responsive li {
+    display: table-cell;
+    padding: 0.5em;
+    vertical-align: middle;
+  }
+  .table-responsive li span {
+    display: none;
+  }
+}
+

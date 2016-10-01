@@ -56,3 +56,22 @@ $("#cssmenu").menumaker({
 });
 });
 })(jQuery);
+
+var contentTableHeader = [],
+    listTableHeader = $(".table-entete > li"),
+    ctnrListTableBody = $(".table-corps > ul");
+
+// Stockage des en-têtes
+listTableHeader.each(function(i){
+  contentTableHeader[i] = $(this).html();
+});
+
+// Ajout des en-têtes correspondants dans chaque liste
+ctnrListTableBody.each(function(){
+  var lists = $(this).find("li");
+  
+  lists.each(function(i){
+    var textToAdd = "<span>"+ contentTableHeader[i] +"</span>";
+    $(this).prepend(textToAdd);
+  });
+});

@@ -1,0 +1,99 @@
+// ***** Classique
+html{
+  box-sizing: border-box;
+  
+  *{
+    box-sizing: inherit;
+    color: #2c3e50;
+  }
+}
+
+// ***** Propriétés
+@mqPetitFormat: 600px;
+@espaceBasEnteteGrandFormat: 1em;
+@espaceEntetePetitFormat: 100px;
+@couleurStripClair: #ecf0f1;
+@couleurStripFonce: #bdc3c7;
+
+// ***** Mixin pour l'activation table
+.mix-displayTable(){
+  display: table;
+  width: 100%;
+  table-layout: auto;
+
+  .table-corps {
+    display: table-row-group;
+  }
+
+  ul, .table-entete {
+    display: table-row;
+
+    &.table-entete {
+      font-weight: bold;
+
+      li {
+        padding-bottom: @espaceBasEnteteGrandFormat;
+      }
+    }
+  }
+
+  li {
+    display: table-cell;
+    padding: 0.5em;
+    vertical-align: middle;
+
+    span {
+      display: none;
+    }
+  }
+}
+
+.table-responsive {
+
+  ul {
+    position: relative;
+    margin: 0;
+    padding: .625em 1em;
+    list-style: none;
+    background-color: @couleurStripClair;
+
+    &:nth-child(even) {
+      background-color: @couleurStripFonce;
+    }
+  }
+
+  li {
+    position: relative;
+    margin: 0;
+    padding: 1px 0 1px @espaceEntetePetitFormat;
+    text-align: left;
+
+    &:after{
+      content: "";
+      display: table;
+      clear: both;
+      border-collapse: collapse;
+    }
+
+    span{
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+    }
+  }
+
+  .table-entete {
+    display: none;
+    background-color: transparent;
+  }
+
+  @media (min-width: @mqPetitFormat) {
+    .mix-displayTable();
+  }
+
+}
+
+// ***** Tableau responsive pour IE8
+.ie8 .table-responsive{
+  .mix-displayTable();
+}

@@ -1,0 +1,1 @@
+<footer>Copyright © 2016 <strong>Institut Pascaline.</strong> Conçu par Emilie Chartier</footer>
