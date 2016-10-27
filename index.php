@@ -17,52 +17,48 @@
     <header>
       <?php include('menu.php'); ?>
 </header>
+<br>
+<br>
+<br>
 
-<section>
+ <div class="bt rouge">
+  <a href="#" class="bt-coffret-cadeau">DÉCOUVREZ NOS<br/><span> OFFRES SPÉCIALES</span></a>
+</div>
+<div class="bt gris">
+  <a href="soins.php" class="bt-table">CHOISISSEZ<span> VOTRE SOIN</span></a>
+</div>
 
-  <div id="box1" class="box blurred-bg tinted">
-                      <div class="content">
-                        <h1>Salon esthétique Pascaline</h1><br />
-  <p>Avec plus de 25 ans d’expérience, Pascale, gérante de l'institut <br />Pascaline vous offre des soins de beauté toujours à la pointe des <br />dernières technologies !</p><br />
-  <p>Découvrez tous nos soins haut de gamme à l'institut Pascaline</p><br />
-  <p>Notre institut de beauté vous accueille du lundi au samedi <br /><em>(uniquement sur rendez-vous)</em></p>
-                      </div>
-                    </div>
- <div class="phone pull-right"><img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone">01 30 53 24 50
-  </div>
- 
-</section>
-      </div>
 
     <br />
 
       <div class="carousel">
         <ul id="content-slider" class="content-slider">
   <li>
-    <img src="img/guinot.jpg" alt="guinot" />
+    <img src="img/Eau Neuve Energic.jpg" alt="guinot" />
   </li>
   <li>
-    <img src="img/guinot.jpg" alt="guinot" />
+    <img src="img/Hydrazone TP.jpg" alt="guinot" />
   </li>
   <li>
-    <img src="img/guinot.jpg" alt="guinot" />
+    <img src="img/Parfum de Vie.jpg" alt="guinot" />
   </li>
   <li>
-    <img src="img/guinot.jpg" alt="guinot" />
+    <img src="img/Huile Mirific.jpg" alt="guinot" />
   </li>
   <li>
-    <img src="img/guinot.jpg" alt="guinot" />
+    <img src="img/Hydrazone Yeux.jpg" alt="guinot" />
   </li>
   <li>
-    <img src="img/guinot.jpg" alt="guinot" />
+    <img src="img/Longue Vie Buste.jpg" alt="guinot" />
   </li>
-</ul><br />
+</ul>
+<br />
       </div>
  <?php include('footer.php'); ?>
     
-    <script src="js/index.js"></script>
+    
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.5/js/lightslider.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.5/js/lightslider.min.js'></script>
     <script type="text/javascript">$(document).ready(function() {
    $("#content-slider").lightSlider({
      auto: true,
@@ -90,6 +86,7 @@
    });
 
  });
-   </script>
+    </script>
+    <script src="js/index.js"></script>
   </body>
 </html>
