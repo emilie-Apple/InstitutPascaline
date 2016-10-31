@@ -50,7 +50,9 @@
   </div>
   <div class="clear"></div>
 </div>
-
+<!--<div class= "imglpg">
+    <img class="lpg" src="img/lpg1.jpg">
+  </div>-->
 <?php include('footer.php'); ?>
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -72,5 +74,6 @@ $(".galleryItem").mouseleave(function() {
     marginTop: '-50px'
   });
 });</script>
+<script src="js/index.js"></script>
   </body>
 </html>

@@ -16,9 +16,11 @@
 
     <header>
       <?php include('menu.php'); ?>
+      <div class="deuximages">
+  <a href="http://www.guinot.com/"><img class="img1" src="img/guinot.jpg"></a>
+  <a href="https://www.endermologie.com/fr/?gclid=CjwKEAjw19vABRCY2YmkpO2OzTsSJAAzEt8sZA1fZSsuTv-Yx0g1eKVrJk9WoaBPXQ7jO5FYoEKY_xoCfF7w_wcB"><img class="img2" src="img/lpg.jpg"></a></div>
 </header>
 <br>
-
 <div class="phone">
   <img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone">01 30 53 24 50
   </div>
@@ -28,9 +30,6 @@
 <div class="bt gris">
   <a href="soins.php" class="bt-table">CHOISISSEZ<span> VOTRE SOIN</span></a>
 </div>
-
-    <br />
-
       <div class="carousel">
         <ul id="content-slider" class="content-slider">
   <li>
@@ -53,7 +52,9 @@
   </li>
 </ul>
 <br />
-      </div>
+
+</div>
+
  <?php include('footer.php'); ?>
     
     

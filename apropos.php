@@ -17,20 +17,23 @@
 </header>
 
 <body>
-<section>
 
+<section>
+  
   <div id="box1" class="box blurred-bg tinted">
                       <div class="content">
                         <h1>Salon esthétique Pascaline</h1><br />
-  <p>Avec plus de 25 ans d’expérience, Pascale, gérante de l'institut <br />Pascaline vous offre des soins de beauté toujours à la pointe des <br />dernières technologies !</p><br />
-  <p>Découvrez tous nos soins haut de gamme à l'institut Pascaline</p><br />
+  <p>Avec plus de 25 ans d’expérience, Pascale, gérante de l'institut <br />vous offre des soins de beauté toujours à la pointe des <br />dernières technologies !</p><br />
+  <p>Découvrez tous nos soins et une cire haut de gamme à l'institut Pascaline</p>
+  <p>Offrez vous un moment de détente dans l'univers de Pacaline.</p>
+  <br />
   <p>Notre institut de beauté vous accueille du lundi au samedi <br /><em>(uniquement sur rendez-vous)</em></p>
                       </div>
                     </div>
  
- <!--<?php include('footer.php'); ?>-->
+ <?php include('footer.php'); ?>
 </section>
-
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="js/index.js"></script>
 </body>
 </html>
