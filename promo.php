@@ -17,6 +17,10 @@
 </header>
 
   <body>
+    <div class="offrekdo">
+      <div class="plaisir"><p>Faites plaisir à vos proches <br>en leur offrant une carte cadeau!</p></div>
+      <img src="img/guinotkdo.jpg">
+    </div>
 <div class="wrapper">
   <div class="galleryItem">
     
@@ -50,6 +54,7 @@
   </div>
   <div class="clear"></div>
 </div>
+
 <!--<div class= "imglpg">
     <img class="lpg" src="img/lpg1.jpg">
   </div>-->

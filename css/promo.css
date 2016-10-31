@@ -9,8 +9,8 @@ body {
 .wrapper {
   width: 920px;
   padding: 10px;
-  margin: 155px auto;
-  background: #e0e0e0;
+  margin: 25px auto;
+  background: #961c3b;
 }
 
 .galleryItem {
@@ -109,7 +109,15 @@ body {
   clear: both;
 }
 
-.lpg {
-  width: 50%;
-  height: 50%;
+.offrekdo img {
+  margin-left: 350px;
+  width: 400px;
+
+}
+
+.plaisir p{
+  float:right;
+  margin-right: 200px;
+  margin-top: 50px;
+  
 }

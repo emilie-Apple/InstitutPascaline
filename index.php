@@ -22,7 +22,7 @@
 </header>
 <br>
 <div class="phone">
-  <img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone">01 30 53 24 50
+  <img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone"> 01 30 53 24 50
   </div>
  <div class="bt rouge">
   <a href="promo.php" class="bt-coffret-cadeau">DÉCOUVREZ NOS<br/><span> OFFRES SPÉCIALES</span></a>
