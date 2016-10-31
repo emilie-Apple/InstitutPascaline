@@ -18,16 +18,16 @@
       <?php include('menu.php'); ?>
 </header>
 <br>
-<br>
-<br>
 
+<div class="phone">
+  <img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone">01 30 53 24 50
+  </div>
  <div class="bt rouge">
-  <a href="#" class="bt-coffret-cadeau">DÉCOUVREZ NOS<br/><span> OFFRES SPÉCIALES</span></a>
+  <a href="promo.php" class="bt-coffret-cadeau">DÉCOUVREZ NOS<br/><span> OFFRES SPÉCIALES</span></a>
 </div>
 <div class="bt gris">
   <a href="soins.php" class="bt-table">CHOISISSEZ<span> VOTRE SOIN</span></a>
 </div>
-
 
     <br />
 

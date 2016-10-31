@@ -27,10 +27,10 @@
   <p>Notre institut de beauté vous accueille du lundi au samedi <br /><em>(uniquement sur rendez-vous)</em></p>
                       </div>
                     </div>
- <div class="phone pull-right"><img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone">01 30 53 24 50
-  </div>
  
+ <!--<?php include('footer.php'); ?>-->
 </section>
+
 <script src="js/index.js"></script>
 </body>
 </html>
