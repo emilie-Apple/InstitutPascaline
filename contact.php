@@ -9,6 +9,7 @@
     <meta name="title" content="Institut Pascaline, Chatou">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contact.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel='stylesheet prefetch' href='http://bigbangburger.com/css/fonts.css'>
         <!--<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>-->
@@ -18,45 +19,8 @@
   <body>
 
     <header>
-      <div class= "page1">
-<nav id='cssmenu'>
-<div class="logo"><a href="index.php">Institut Pascaline </a></div>
-<div id="head-mobile"></div>
-<div class="button"></div>
-<ul>
-
-<li><a href='apropos.php'>A PROPOS DE</a></li>
-<li><a href='promo.php'>NOUVEAUTES & PROMO</a></li>
-<li><a href='soins.php'>SOINS</a></li>
-<li><a href='http://www.guinot.com/'>PRODUITS</a></li>
-<li><a href='contact.php'>CONTACT & ACCES</a></li>
-</ul>
-</nav>
-</div>
+      <?php include('menu.php'); ?>
  
-<!--<div id="map"></div>
-    <script>
-      function initMap() {
-        var myLatLng = {lat: 48.890154, lng: 2.157964};
-
-        // Create a map object and specify the DOM element for display.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: myLatLng,
-          scrollwheel: false,
-          zoom: 4
-        });
-// Create a marker and set its position.
-        var marker = new google.maps.Marker({
-          map: map,
-          position: myLatLng,
-          title: 'Hello World!'
-        });
-      }
-
-</script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAodqPnA_ceL_hN72rYYsLDSiqEEsgIEE0&callback=initMap"
-        async defer>
-</script>-->
 <style>
       .map-control {
         background-color: #fff;
@@ -64,8 +28,6 @@
         box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
         font-family: 'Roboto','sans-serif';
         margin: 10px;
-        /* Hide the control initially, to prevent it from appearing
-           before the map loads. */
         display: none;
       }
       /* Display the control once it is inside the map. */
@@ -77,12 +39,11 @@
         padding-left: 5px;
         padding-right: 5px;
       }
-      <style>
-      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-      /* Global */
-
-    </style>
- 
+    
+</style>
+ <div class="phone">
+  <img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone"> 01 30 53 24 50
+  </div>
     <div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.5">
   <div class="container clearfix">
     <div class="content grid_2 contactype active" id="contact-mapClick">
@@ -116,7 +77,7 @@
         <h2>CONTACT</h2>
         <p class="information"><span class="icon-location"> Adresse :<br/></span>6 PLACE DU GENERAL DE GAULLE <br/>78400 CHATOU FRANCE</p>
         <p class="information"><span class="icon-phone-2"> Tél : </span>01 30 53 24 50</p><br/>
-        <a class="btn" href="http://goo.gl/maps/8GlbZ" target="_blank">Direction</a>
+        <a class="btn" href="http://www.gosur.com/driving-directions/?lang=fr&search-query=itineraire&gclid=COS3mKu0ktACFZEy0wodglsHxw#" target="_blank">Direction</a>
         <div class="clear"></div>
       </div>
       <div class="grid_8 omega">
@@ -135,7 +96,7 @@
       <div class="grid_8 omega">
         <div class="grid_6 omega"><strong>Votre Institut Pascaline</strong> vous réserve un accueil privilegié en vous offrant votre place de parking<br/><em>(à préciser lors de la prise de votre rendez-vous).</em>
         <br/>
-        <a class="btn" href="http://goo.gl/maps/8GlbZ" target="_blank">Direction</a>
+        <a class="btn" href="http://www.gosur.com/driving-directions/?lang=fr&search-query=itineraire&gclid=COS3mKu0ktACFZEy0wodglsHxw#" target="_blank">Direction</a>
 
         </div>
       </div>
@@ -164,7 +125,7 @@
       </div>
       <div class="grid_8 omega">
         <div class="grid_6 omega">
-          <span class="icon-calendar"> Parking à vélo à votre disposition.
+          <span> Parking à vélo à votre disposition </span>
         </div>
       </div>
     </div>
@@ -187,7 +148,7 @@
         <p class="information"><span class="icon-location"> Adresse :<br/></span>6 PLACE DU GENERAL DE GAULLE <br/>78400 CHATOU FRANCE</p>
       </div>
       <div class="grid_8 omega">
-        <div class="grid_6 omega"><a href="mailto:mail@loremipsum.com?Subject=Hello" class="btn">mail@gmail.com</a></div>
+        <div class="grid_6 omega"><a href="mailto:mail@gmail.com" class="btn">mail@gmail.com</a></div>
       </div>
     </div>
 
@@ -198,7 +159,7 @@
 
   </div>
 </div>
-    
+    <?php include('footer.php'); ?>
     <script>
       var map;
       function initMap() {

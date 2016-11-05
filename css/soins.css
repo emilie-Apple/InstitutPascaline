@@ -1,10 +1,10 @@
-body{
-  background-image: url(guinot3.jpg);
-  background-repeat: no-repeat;
+body {
+  background-image:linear-gradient(to right, white, #961c3b);
+  background-image:-moz-linear-gradient(left, white, #961c3b);
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  line-height: 26px;
   background-size: cover;
-  font-family: 'Raleway', sans-serif;
-  opacity: 0.9;
-  
 }
 
 .table-responsive ul {

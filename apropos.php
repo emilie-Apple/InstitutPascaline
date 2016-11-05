@@ -35,6 +35,7 @@
   </header>
 
 <body>
+  <div class="apropos">
 <div class="phone">
   <img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone"> 01 30 53 24 50
   </div>
@@ -53,7 +54,12 @@
     </div>
   </div>
 </section>
+</div>
 
+<div class="imageapropos">
+  <img src="img/apropos.png">
+</div>
+<?php include('footer.php'); ?>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="js/index.js"></script>
 
