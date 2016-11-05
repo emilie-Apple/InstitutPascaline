@@ -3,7 +3,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
-
+  opacity: 0.9;
+  
 }
 
 .table-responsive ul {
@@ -14,6 +15,7 @@ body{
   background-color: #ecf0f1;
   font-size: 12px;
   margin: 20px;
+
 }
 .table-responsive ul:nth-child(even) {
   background-color: #DBD9D9!important;
@@ -42,7 +44,7 @@ body{
 @media (min-width: 600px) {
   .table-responsive {
     display: table;
-    width: 100%;
+    width: 97%;
     table-layout: auto;
     margin: 20px;
   }

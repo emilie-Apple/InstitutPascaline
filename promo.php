@@ -17,10 +17,15 @@
 </header>
 
   <body>
+    <div class="phone">
+  <img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone"> 01 30 53 24 50
+  </div>
+    <div class='promo'>
     <div class="offrekdo">
       <div class="plaisir"><p>Faites plaisir à vos proches <br>en leur offrant une carte cadeau!</p></div>
       <img src="img/guinotkdo.jpg">
     </div>
+    <div class="grand-format">
 <div class="wrapper">
   <div class="galleryItem">
     
@@ -53,6 +58,45 @@
     </div>
   </div>
   <div class="clear"></div>
+</div>
+</div>
+</div>
+
+<div class="petit-format">
+<div class="wrapper">
+  <div class="galleryItem">
+    
+    <div class="fakeImage">
+      <img class="promo1" src="img/promo1.jpg" alt="guinot">
+    </div>
+    <div class="galleryOverlay">
+      <h2 class="galleryItemTitel">Creme âge Summum</h2>
+      <p class="">Venez décourir la nouvelle Guinot en promo jusqu'au 30 Novembre 2016</p>
+    </div>
+  </div>
+ 
+  <div class="galleryItem">
+    
+    <div class="fakeImage">
+      <img class="promo2" src="img/promo2.jpg" alt="guinot">
+    </div>
+    <div class="galleryOverlay">
+      <h2 class="galleryItemTitel">Soins visage</h2>
+      <p class="galleryItemIntro">Venez profiter <strong>d'une remise imédiate de 10€ </strong> jusqu'au 30 Novembre 2016</p>
+    </div>
+  </div>
+  <div class="galleryItem">
+    
+    <div class="fakeImage">
+      <img class="promo3" src="img/promo3.jpg" alt="guinot">
+    </div>
+    <div class="galleryOverlay">
+      <h2 class="galleryItemTitel">Soins visage + Un Produit </h2>
+      <p class="galleryItemIntro">Venez profiter <strong>d'une remise imédiate de 15€</strong> pour l'achat d'un produit Guinot jusqu'au 30 Novembre 2016</p>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
 </div>
 
 <!--<div class= "imglpg">

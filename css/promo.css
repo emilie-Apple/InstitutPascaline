@@ -4,6 +4,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   line-height: 26px;
+  background-size: cover;
 }
 
 .wrapper {
@@ -11,6 +12,13 @@ body {
   padding: 10px;
   margin: 25px auto;
   background: #961c3b;
+}
+
+.promo {
+  background-image:linear-gradient(to right, white, #961c3b);
+  background-image:-moz-linear-gradient(left, white, #961c3b);
+  height: 860px;
+
 }
 
 .galleryItem {
@@ -120,4 +128,38 @@ body {
   margin-right: 200px;
   margin-top: 50px;
   
+}
+
+@media all and (min-width: 1024px){
+  .petit-format {
+    display: none;
+  }
+
+}
+
+@media all and (max-width: 1024px){
+  
+
+    .grand-format {
+      display: none;
+    }
+    .offrekdo {
+    display: none;
+    
+  }
+
+    .wrapper {
+      width: 100%;
+     margin-top: 0px;
+
+    }
+
+    .promo {
+      display: none;
+    }
+
+    .wrapper{
+      margin-bottom: 10px;
+    }
+
 }

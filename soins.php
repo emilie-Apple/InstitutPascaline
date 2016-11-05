@@ -15,8 +15,11 @@
 
   <body>
     <?php include('menu.php'); ?>
+    <div class="phone">
+  <img src="http://lesalonbeaute75017.guinot.com/theme/guinot6/assets/images/phone-icon-home.png" alt="phone"> 01 30 53 24 50
+  </div>
     <div class="table-responsive">
-      <h2>SOINS</h2>
+      
   <ul class="table-entete">
     <li>SOINS</li>
     <li>EUROS</li>
