@@ -12,7 +12,8 @@
         <link rel="stylesheet" href="css/contact.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel='stylesheet prefetch' href='http://bigbangburger.com/css/fonts.css'>
-        <!--<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>-->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
   </head>
 
@@ -76,7 +77,8 @@
       <div class="grid_4">
         <h2>CONTACT</h2>
         <p class="information"><span class="icon-location"> Adresse :<br/></span>6 PLACE DU GENERAL DE GAULLE <br/>78400 CHATOU FRANCE</p>
-        <p class="information"><span class="icon-phone-2"> Tél : </span>01 30 53 24 50</p><br/>
+        <p class="information"><span><i class="fa fa-phone"></i> 01 30 53 24 50</span> <br/>
+        <span><i class="fa fa-mobile fa-2x"></i> 06 07 49 33 63 </span></p>
         <a class="btn" href="http://www.gosur.com/driving-directions/?lang=fr&search-query=itineraire&gclid=COS3mKu0ktACFZEy0wodglsHxw#" target="_blank">Direction</a>
         <div class="clear"></div>
       </div>
@@ -107,11 +109,12 @@
         <h2>BUS</h2>
         <p class="information"><span class="icon-location"> Adresse :<br/></span>6 PLACE DU GENERAL DE GAULLE <br/>78400 CHATOU FRANCE</p>
         <br><br>
-        <div class="btn"><span class="icon-checkmark"></span> ... </div>
+        
       </div>
       <div class="grid_8 omega">
         <div class="grid_6 omega" id="scroll2">
-          Possibilité de venir en Bus.
+          Possibilité de venir en Bus.<br>
+          Ligne 2, 3 et 4 (arrêt La Poste) 
         </div>
       </div>
     </div>
@@ -125,7 +128,7 @@
       </div>
       <div class="grid_8 omega">
         <div class="grid_6 omega">
-          <span> Parking à vélo à votre disposition </span>
+          <span> Parking à vélo à votre disposition <br/>(local fermé)</span>
         </div>
       </div>
     </div>
@@ -148,7 +151,7 @@
         <p class="information"><span class="icon-location"> Adresse :<br/></span>6 PLACE DU GENERAL DE GAULLE <br/>78400 CHATOU FRANCE</p>
       </div>
       <div class="grid_8 omega">
-        <div class="grid_6 omega"><a href="mailto:mail@gmail.com" class="btn">mail@gmail.com</a></div>
+        <div class="grid_6 omega"><a href="mailto:institutpascaline@gmail.com" class="btn">institutpascaline@gmail.com</a></div>
       </div>
     </div>
 

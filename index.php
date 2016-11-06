@@ -23,7 +23,7 @@
   </header>
       
     
-<div class ="imgaccueil"><img src="img/accueil2.jpg"></div>
+<div class ="imgaccueil"><img src="img/estheticienne.jpg"></div>
  <div class="bt rouge">
   <a href="promo.php" class="bt-coffret-cadeau">DÉCOUVREZ NOS<br/><span> OFFRES SPÉCIALES</span></a>
 </div>
@@ -41,19 +41,19 @@
     <img src="img/Eau Neuve Energic.jpg" alt="guinot" />
   </li>
   <li>
-    <img src="img/Hydrazone TP.jpg" alt="guinot" />
+    <img src="img/hydrazone1.png" alt="guinot" />
   </li>
   <li>
-    <img src="img/Parfum de Vie.jpg" alt="guinot" />
+    <img src="img/serum1.jpg" alt="guinot" />
   </li>
   <li>
     <img src="img/Huile Mirific.jpg" alt="guinot" />
   </li>
   <li>
-    <img src="img/Hydrazone Yeux.jpg" alt="guinot" />
+    <img src="img/Longue Vie Buste.jpg" alt="guinot" />
   </li>
   <li>
-    <img src="img/Longue Vie Buste.jpg" alt="guinot" />
+    <img src="img/agelogique1.jpg" alt="guinot" />
   </li>
 </ul>
 <br />

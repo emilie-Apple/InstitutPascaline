@@ -34,7 +34,7 @@
     </div>
     <div class="galleryOverlay">
       <h2 class="galleryItemTitel">Creme âge Summum</h2>
-      <p class="">Venez décourir la nouvelle Guinot en promo jusqu'au 30 Novembre 2016</p>
+      <p class="">Venez décourir la nouvelle crème Guinot en promo jusqu'au 15 Décembre 2016</p>
     </div>
   </div>
   <div class="galleryItem">
@@ -44,7 +44,7 @@
     </div>
     <div class="galleryOverlay">
       <h2 class="galleryItemTitel">Soins visage</h2>
-      <p class="galleryItemIntro">Venez profiter <strong>d'une remise imédiate de 10€ </strong> jusqu'au 30 Novembre 2016</p>
+      <p class="galleryItemIntro">Venez profiter <strong>d'une remise imédiate de 10€ </strong> jusqu'au 15 Décembre 2016</p>
     </div>
   </div>
   <div class="galleryItem">
@@ -54,7 +54,7 @@
     </div>
     <div class="galleryOverlay">
       <h2 class="galleryItemTitel">Soins visage + Un Produit </h2>
-      <p class="galleryItemIntro">Venez profiter <strong>d'une remise imédiate de 15€</strong> pour l'achat d'un produit Guinot jusqu'au 30 Novembre 2016</p>
+      <p class="galleryItemIntro">Venez profiter <strong>d'une remise imédiate de 15€</strong> pour l'achat d'un soin visage et d'un produit Guinot jusqu'au 15 Décembre 2016</p>
     </div>
   </div>
   <div class="clear"></div>

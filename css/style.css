@@ -8,7 +8,7 @@
 
 body {
   background-image:linear-gradient(to right, white, #961c3b);
-  background-image:-moz-linear-gradient(left, white, #961c3b);
+  background-image:-moz-linear-gradient( white, #961c3b, white);
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   line-height: 26px;
@@ -23,8 +23,8 @@ header{
 .imgaccueil img{
   margin-left: 600px;
   position: absolute;
-  width: 550px;
-  height: 250px;
+  width: 450px;
+  height: 350px;
 }
 
 .bt.gris {
@@ -106,13 +106,14 @@ h1{
   font-size: 30px;
 }
 .phone {
-  /*color: -moz-linear-gradient(center top,#fff,#f7f7f7) repeat-x #eee;*/
+  background: -moz-linear-gradient(center top,#fff,#f7f7f7) repeat-x #eee;
   border-radius: 20px;
   color: #b6133a;
   font-size: 25px;
   max-width: 223px;
   padding: 10px 15px;
-  margin-left: 50px;
+  margin-left: 40px;
+  margin-top: 10px;
   width: 100%;
 
 }
@@ -518,9 +519,18 @@ ul {
   width: 800px;
 }
 
+.lslide img {
+  padding: 20px;
+}
+
+.clone img {
+  padding: 20px;
+}
+
 footer {
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
+  margin-top: 40px;
  
 }
 

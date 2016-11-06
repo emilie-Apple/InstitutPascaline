@@ -1,6 +1,7 @@
 body {
   background-image:linear-gradient(to right, white, #961c3b);
-  background-image:-moz-linear-gradient(left, white, #961c3b);
+  /*background-image:-moz-linear-gradient(left, white, #961c3b);*/
+  background-image:-moz-linear-gradient( white, #961c3b, white);
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   line-height: 26px;
