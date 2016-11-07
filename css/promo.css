@@ -158,6 +158,10 @@ body {
     .promo {
       display: none;
     }
-
+    .galleryItem {
+      margin-left: 0px;
+      padding: 5px;
+    }
+    
     
 }

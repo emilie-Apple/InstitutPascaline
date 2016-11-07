@@ -93,14 +93,6 @@ border: 1px solid #903a4f;
  font-size:1.05em;
 }
 
-.bt-coffret-cadeau:before {
-  content:url(http://maquette.apicius.com/franck-putelat/v5/images/content/picto-cadeau.png);
-  padding-right:20px;
-  float: left;
-  height:100%;
-  display:block;
-  margin-top: -3px;
-}
 
 h1{
   font-size: 30px;
@@ -530,7 +522,7 @@ ul {
 footer {
   font-size: 12px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 80px;
  
 }
 

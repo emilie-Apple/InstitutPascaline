@@ -170,13 +170,12 @@ a:visited {
   padding: 16px 24px 17px 24px;
   font-size: 13px;
   font-weight: bold;
-  text-transform: uppercase;
   letter-spacing: 0.2em;
   text-shadow: none;
   line-height: 20px;
   text-align: center;
   border-radius: 5px;
-  margin-left: 2.5em;
+  margin-left: 20px;
 }
 .btn span {
   font-size: 1em;
@@ -190,7 +189,6 @@ a:visited {
   padding: 14px 24px;
   font-size: 13px;
   font-weight: bold;
-  text-transform: uppercase;
   letter-spacing: 0.2em;
   border-radius: 5px;
   display: inline-block;
@@ -210,6 +208,7 @@ a:visited {
   overflow: hidden;
   margin: 0;
   padding: 0;
+  
 }
 #contact-car .grid_10.omega {
   margin: 0 auto;

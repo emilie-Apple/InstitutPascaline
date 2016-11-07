@@ -50,7 +50,7 @@
   <div class="galleryItem">
     
     <div class="fakeImage">
-      <img class="promo3" src="img/promo3.jpg" alt="guinot">
+      <img class="promo3" src="img/guinot1.png" alt="guinot">
     </div>
     <div class="galleryOverlay">
       <h2 class="galleryItemTitel">Soins visage + Un Produit </h2>

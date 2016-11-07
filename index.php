@@ -59,7 +59,9 @@
 <br />
 
 </div>
-
+<script type="text/javascript" src="http://counter7.01counter.com/private/countertab.js?c=784cbfbf905e4697bf676bae974089da"></script>
+<!--<noscript><a href="http://www.compteurdevisite.com" title="compteur de visites gratuit"><img src="http://counter7.01counter.com/private/compteurdevisite.php?c=784cbfbf905e4697bf676bae974089da" border="0" title="compteur de visites gratuit" alt="compteur de visites gratuit"></a>
+</noscript>-->
  <?php include('footer.php'); ?>
     
     
