@@ -4,6 +4,6 @@ Conçu par Emilie Chartier
 ENVIRONNEMENT TECHNIQUE
 
 * Api Google Map
-HTML/CSS/PHP/JS
-Git/Github
-jQuery
+* HTML/CSS/PHP/JS
+* Git/Github
+* jQuery
